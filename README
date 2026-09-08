@@ -46,10 +46,6 @@ Each EEG session contains the following files:
 *_scans.tsv: List of files acquired during the session.
 
 ---
-## Competition Instructions
-
-Participants are encouraged to use the MET dataset for developing and benchmarking algorithms for EEG-based music perception, affective computing, emotion recognition, and neural signal analysis.
-
 ### Dataset Usage
 
 The dataset contains:
