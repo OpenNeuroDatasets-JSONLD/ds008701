@@ -46,8 +46,46 @@ Each EEG session contains the following files:
 *_scans.tsv: List of files acquired during the session.
 
 ---
+## Competition Instructions
 
-## Sample Code (PTTHON):
+Participants are encouraged to use the MET dataset for developing and benchmarking algorithms for EEG-based music perception, affective computing, emotion recognition, and neural signal analysis.
+
+### Dataset Usage
+
+The dataset contains:
+
+- EEG recordings from 20 participants
+- One resting-state session per participant
+- Twenty music-listening sessions per participant
+- Subjective ratings including:
+  - Valence (1–9)
+  - Arousal (1–9)
+  - Likeability (1–5)
+  - Familiarity (1–5)
+- Song-level affective labels:
+  - HVHA (High Valence High Arousal)
+  - HVLA (High Valence Low Arousal)
+  - LVHA (Low Valence High Arousal)
+  - LVLA (Low Valence Low Arousal)
+  - N (Neutral)
+
+Users may utilize either the provided affective categories or the subjective ratings as prediction targets.
+
+### Recommended Tasks
+
+Possible benchmark tasks include:
+
+1. Emotion category classification (HVHA, HVLA, LVHA, LVLA, N)
+2. Valence prediction
+3. Arousal prediction
+4. Likeability prediction
+5. Familiarity prediction
+6. Cross-subject EEG classification
+7. Music-evoked neural pattern analysis
+
+---
+
+## Sample Code (PYTHON):
 
 ```py
 
