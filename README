@@ -5,7 +5,7 @@
 The MET (Music-Induced EEG Dataset) contains EEG recordings collected from 20 participants during music-listening experiments.
 
 Each participant completed:
-- Twenty music-listening sessions (`ses-t01` to `ses-t20`)
+- Twenty music-listening sessions are named as txx. (eg. t01 means the song index is 1)
 
 Each music session corresponds to a different song. The total recording duration for each song is 130 seconds, including:
 
