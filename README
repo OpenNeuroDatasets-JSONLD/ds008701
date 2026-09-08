@@ -21,6 +21,8 @@ The dataset follows the Brain Imaging Data Structure (BIDS) specification for EE
 
 ## Repository Structure
 
+participants.tsv: subject information and emotion labels (valence & arousal level) from the questionnaire they answered.
+
 Each EEG session contains the following files:
 
 *_eeg.eeg: EEG signal data in BrainVision format. (Unit: µV [microvolts])
