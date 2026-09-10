@@ -6,6 +6,7 @@ The MET (Music-Induced EEG Dataset) contains EEG recordings collected from 20 pa
 
 Each participant completed:
 - Twenty music-listening sessions are named as ses-txx. (eg. ses-t01 means the song index is 1)
+- Emotion ratings after each session through the Self-Assessment Manikin  (SAM)
 
 Each music session corresponds to a different song. The total recording duration for each song is 130 seconds, including:
 
@@ -21,7 +22,9 @@ The dataset follows the Brain Imaging Data Structure (BIDS) specification for EE
 
 ## Repository Structure
 
-participants.tsv: subject information and emotion labels (valence & arousal level) from the questionnaire they answered.
+- participants.tsv: subject information and emotion labels (valence & arousal level) from the questionnaire they answered.
+
+- ratings.tsv: subjective ratings and song category 
 
 Each EEG session contains the following files:
 
