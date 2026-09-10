@@ -54,7 +54,6 @@ Each EEG session contains the following files:
 The dataset contains:
 
 - EEG recordings from 20 participants
-- One resting-state session per participant
 - Twenty music-listening sessions per participant
 - Subjective ratings including:
   - Valence (1–9)
