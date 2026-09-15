@@ -13,10 +13,37 @@ data:
             schemeUri: https://orcid.org
         contributorType: ContactPerson
         order: 1
+      - name: Weng Lam Chan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: DataCollector
+        order: 2
+      - name: Cheng Teng Ip
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Supervisor
+        order: 3
+      - name: Minglei Zhang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Sponsor
+        order: 4
     creators:
       - name: Weng Lam Cheang
         nameType: Personal
         nameIdentifiers: *ref_0
+      - name: Weng Lam Chan
+        nameType: Personal
+      - name: Cheng Teng Ip
+        nameType: Personal
+      - name: Minglei Zhang
+        nameType: Personal
     descriptions:
       - description: N/A
         descriptionType: Abstract
