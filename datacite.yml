@@ -3,7 +3,7 @@ data:
     types:
       resourceTypeGeneral: Dataset
     contributors:
-      - name: Weng Lam Cheang
+      - name: Weng-Lam Cheang
         givenName: ''
         familyName: ''
         nameType: Personal
@@ -49,7 +49,7 @@ data:
         contributorType: Sponsor
         order: 6
     creators:
-      - name: Weng Lam Cheang
+      - name: Weng-Lam Cheang
         nameType: Personal
         nameIdentifiers: *ref_0
       - name: Weng-Lam Chan
