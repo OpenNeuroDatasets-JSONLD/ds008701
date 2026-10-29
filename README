@@ -14,6 +14,7 @@ The total recording duration for each song is 130 seconds, including:
 - 5 seconds before music onset
 - 120 seconds of music playback
 - 5 seconds after music offset
+
 (To reduce the influence of possible playback and hardware synchronization delays, users may apply a conservative analysis window beginning 1 to 2 seconds after the nominal onset, such as 6 to 124 seconds.)
 
 
