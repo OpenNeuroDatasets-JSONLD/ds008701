@@ -5,17 +5,24 @@
 The MET (Music-Induced EEG Dataset) contains EEG recordings collected from 20 participants during music-listening experiments.
 
 Each participant completed:
-- Twenty music-listening sessions are named as ses-txx. (eg. ses-t01 means the song index is 1)
+- Twenty music-listening sessions are named as ses-txx. (eg. ses-t01 corresponds to song_id = t01)
 - Emotion ratings after each session through the Self-Assessment Manikin  (SAM)
 
-Each music session corresponds to a different song. The total recording duration for each song is 130 seconds, including:
+Each session corresponds to a different song. The presentation order of the songs was randomized separately for each participant.
+
+The total recording duration for each song is 130 seconds, including:
 - 5 seconds before music onset
 - 120 seconds of music playback
 - 5 seconds after music offset
+(To reduce the influence of possible playback and hardware synchronization delays, users may apply a conservative analysis window beginning 1 to 2 seconds after the nominal onset, such as 6 to 124 seconds.)
+
 
 EEG signals were originally recorded using a 128-channel EEG system at a sampling rate of 1000 Hz. After preprocessing and channel selection, 66 EEG channels are provided in this dataset.
 
 The dataset follows the Brain Imaging Data Structure (BIDS) specification for EEG recordings.
+
+## EEG Acquisition
+EEG data were acquired at 1000 Hz using a 128-channel HydroCel Geodesic Sensor Net, with Cz as the online acquisition reference and the EGI system common as the acquisition ground.
 
 ---
 
