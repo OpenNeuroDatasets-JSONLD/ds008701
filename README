@@ -9,7 +9,6 @@ Each participant completed:
 - Emotion ratings after each session through the Self-Assessment Manikin  (SAM)
 
 Each music session corresponds to a different song. The total recording duration for each song is 130 seconds, including:
-
 - 5 seconds before music onset
 - 120 seconds of music playback
 - 5 seconds after music offset
@@ -28,11 +27,7 @@ The dataset follows the Brain Imaging Data Structure (BIDS) specification for EE
 
 Each EEG session contains the following files:
 
-*_eeg.eeg: EEG signal data in BrainVision format. (Unit: µV [microvolts])
-
-*_eeg.vhdr: BrainVision header file containing acquisition parameters.
-
-*_eeg.vmrk: Event marker file.
+*_eeg.set: EEG signal data in MATLAB format. (Unit: µV [microvolts])
 
 *_eeg.json: EEG recording metadata.
 
